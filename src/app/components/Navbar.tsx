@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <section className="fixed top-0 w-full z-50 flex p-8 gap-8 navbar-blur">
+    <section className="fixed top-0 w-full z-50 flex p-4 gap-8 navbar-blur">
       <div className="flex gap-1 items-center">
         <Image src={"/logo.svg"} width={50} height={50} alt={"logo"} />
         <h1 className="capitalize">DRIVEN</h1>

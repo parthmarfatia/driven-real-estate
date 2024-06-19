@@ -12,6 +12,11 @@ h2 {
   font-weight: 900;
 }
 
+h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
 .navbar-blur {
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px); /* For Safari */
@@ -19,6 +24,6 @@ h2 {
     255,
     255,
     255,
-    0
+    0.2
   ); /* Fallback for browsers that don't support backdrop-filter */
 }
