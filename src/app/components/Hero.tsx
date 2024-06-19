@@ -52,7 +52,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex flex-col gap-2">
-          <span className="text-white text-md">Let's Get Started</span>
+          <span className="text-white text-md">Lets Get Started</span>
           <button className="rounded w-40 bg-blue-500 p-4 text-white font-bold border border-blue-500 hover:bg-opacity-0 hover:border hover:border-blue-500 hover:text-blue-400">
             Buy
           </button>
