@@ -7,7 +7,7 @@ const Navbar = () => {
     <section className="fixed top-0 w-full z-50 flex p-4 gap-8 navbar-blur">
       <div className="flex gap-1 items-center">
         <Image src={"/logo.svg"} width={50} height={50} alt={"logo"} />
-        <h1 className="capitalize">DRIVEN</h1>
+        <span className="text-3xl font-black">DRIVEN</span>
       </div>
       <nav className="flex ml-auto">
         <ul className="flex items-center gap-4 font-medium">
