@@ -40,6 +40,17 @@ const MobileMenuModal = () => {
               Instant Valuation
             </button>
           </li>
+          <li className="flex bg-midgray gap-4 py-2 px-4 rounded-full">
+            <span className="material-icons text-white hover:text-optienal-dark-blue cursor-pointer">
+              facebook
+            </span>
+            <span className="material-icons text-white hover:text-optienal-dark-blue cursor-pointer">
+              email
+            </span>
+            <span className="material-icons text-white hover:text-optienal-dark-blue cursor-pointer">
+              phone
+            </span>
+          </li>
         </ul>
       )}
     </div>
