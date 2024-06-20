@@ -47,7 +47,7 @@ const Card = () => {
 
 const Blogs = () => {
   return (
-    <section className="p-8 h-full w-full flex flex-col gap-8">
+    <section id="blogs" className="p-8 h-full w-full flex flex-col gap-8">
       <div className="w-[40rem]">
         <h2>The latest blogs, podcasts, and real estate insights</h2>
       </div>

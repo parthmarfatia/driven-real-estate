@@ -2,7 +2,10 @@ import React from "react";
 
 const NewsLetter = () => {
   return (
-    <section className="newsletter py-16 h-full w-full flex flex-col items-center gap-8 bg-offwhite">
+    <section
+      id="newsletter"
+      className="newsletter py-16 h-full w-full flex flex-col items-center gap-8 bg-offwhite"
+    >
       <div className="w-[55rem] text-center">
         <h2>Get the Real Estate Insights Newsletter in Your Inbox Monthly</h2>
       </div>

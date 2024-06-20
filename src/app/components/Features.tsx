@@ -3,7 +3,10 @@ import Image from "next/image";
 
 const Features = () => {
   return (
-    <section className="w-full h-full bg-black p-8 flex gap-4 items-center">
+    <section
+      id="features"
+      className="w-full h-full bg-black p-8 flex gap-4 items-center"
+    >
       <div>
         <span className="material-icons text-white">arrow_back_ios</span>
       </div>

@@ -18,6 +18,16 @@ const config: Config = {
         "dark-gray": "#63666b",
         black: "#000000",
       },
+      keyframes: {
+        "rotate-90": {
+          from: { transform: "rotate(0deg)" },
+          to: { transform: "rotate(90deg)" },
+        },
+      },
+      animation: {
+        "spin-slow": "spin 3s linear infinite", // Example if you want continuous slow spin
+        "rotate-90": "rotate-90 0.5s ease-in-out forwards", // Define a custom rotation animation
+      },
     },
   },
   plugins: [],
