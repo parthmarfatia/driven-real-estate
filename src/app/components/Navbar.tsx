@@ -5,9 +5,11 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { twMerge } from "tailwind-merge";
 import DropdownButton from "./DropdownButton";
+import MobileMenuModal from "./MobileMenuModal";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileOpen, setIsMobileOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,7 +31,7 @@ const Navbar = () => {
         <Image src={"/logo.svg"} width={50} height={50} alt="logo" />
         <span className="text-3xl font-black">DRIVEN</span>
       </div>
-      <div className="flex ml-auto">
+      <div className=" ml-auto hidden lg:flex">
         <ul className="flex items-center gap-4 font-medium">
           <li className="hover:text-elegant-blue">
             <Link href="#home">Home</Link>
@@ -48,15 +50,18 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="flex items-center">
+      <div className=" items-center hidden lg:flex">
         <span className="material-icons cursor-pointer hover:text-elegant-blue  hover:animate-rotate-infinite">
           settings
         </span>
       </div>
-      <div className="flex items-center">
+      <div className=" items-center hidden lg:flex">
         <button className="rounded bg-elegant-blue p-4 text-white font-bold border border-elegant-blue hover:bg-opacity-0 hover:border hover:border-elegant-blue hover:text-elegant-blue">
           Instant Valuation
         </button>
+      </div>
+      <div className="lg:hidden flex items-center ml-auto">
+        <MobileMenuModal />
       </div>
     </nav>
   );

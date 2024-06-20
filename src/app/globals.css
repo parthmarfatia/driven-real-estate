@@ -77,3 +77,14 @@ h5 {
   border-right: 8px solid transparent;
   border-bottom: 8px solid rgba(0, 0, 0, 0.7); /* Match the dropdown background color or use theme color */
 }
+
+.dropdown-pointer-white::before {
+  content: "";
+  position: absolute;
+  top: -7px; /* Adjust this value based on your needs */
+  left: 90%;
+  transform: translateX(-50%);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid rgba(255, 255, 255, 0.9); /* Match the dropdown background color or use theme color */
+}
