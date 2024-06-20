@@ -4,7 +4,6 @@ import Image from "next/image";
 
 const Features = () => {
   const [isToggle, setIsToggle] = useState(false);
-
   return (
     <section
       id="features"
@@ -29,21 +28,23 @@ const Features = () => {
               waterfront lifestyles to a vibrant urban experience.
             </p>
           </div>
-          <div className="flex flex-col items-center md:flex-row gap-8 w-full">
-            <div className="w-[300px] h-[300px] md:ml-20 relative hover:scale-105 transition-transform duration-300">
+          <div className="flex flex-col items-center lg:h-[333px] md:flex-row gap-8 w-full">
+            <div className="md:ml-20 hover:scale-105 transition-transform duration-300">
               <Image
                 src={"/feature-1.png"}
                 alt="feature 1 image"
-                layout="fill"
-                className="rounded-lg object-cover"
+                width={333}
+                height={333}
+                className="rounded-lg"
               />
             </div>
-            <div className="w-[500px] h-[300px] md:-mt-40 relative hover:scale-105 transition-transform duration-300">
+            <div className="md:-mt-40 hover:scale-105 transition-transform duration-300">
               <Image
                 src={"/feature-2.png"}
                 alt="feature 2 image"
-                layout="fill"
-                className="rounded-lg object-cover"
+                width={500}
+                height={300}
+                className="rounded-lg"
               />
             </div>
           </div>
@@ -60,21 +61,23 @@ const Features = () => {
               place.
             </p>
           </div>
-          <div className="flex flex-col items-center md:flex-row gap-8 w-full">
-            <div className="w-[500px] h-[300px] md:ml-20 relative hover:scale-105 transition-transform duration-300">
+          <div className="flex flex-col lg:h-[333px] items-center md:flex-row gap-8 w-full">
+            <div className="md:ml-20 hover:scale-105 transition-transform duration-300">
               <Image
                 src={"/feature-3.png"}
                 alt="feature 3 image"
-                layout="fill"
-                className="rounded-lg object-cover"
+                width={500}
+                height={300}
+                className="rounded-lg"
               />
             </div>
-            <div className="w-[500px] h-[300px] md:-mt-40 relative hover:scale-105 transition-transform duration-300">
+            <div className="md:-mt-40 hover:scale-105 transition-transform duration-300">
               <Image
                 src={"/feature-4.png"}
                 alt="feature 4 image"
-                layout="fill"
-                className="rounded-lg object-cover"
+                width={500}
+                height={300}
+                className="rounded-lg"
               />
             </div>
           </div>
