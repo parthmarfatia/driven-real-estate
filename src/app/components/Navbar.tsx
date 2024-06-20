@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <nav
       className={twMerge(
-        "fixed top-0 w-full z-50 flex p-4 gap-8 transition-all duration-300 ease-in-out",
+        "fixed top-0 w-full z-50 flex p-4 gap-8 transition-all duration-300 ease-in-out animate-fade-in",
         isScrolled ? "bg-white shadow-md" : "navbar-blur"
       )}
     >

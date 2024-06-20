@@ -18,7 +18,7 @@ const Hero = () => {
         Your browser does not support the video tag.
       </video>
       <div className="bg-black/30 w-full h-full absolute"></div>
-      <div className="flex flex-col gap-5 md:gap-10 lg:justify-between lg:gap-0 w-full pt-36 pb-8 z-10 relative h-full px-8 md:px-16 xl:px-24">
+      <div className="flex flex-col gap-5 md:gap-10 lg:justify-between lg:gap-0 w-full pt-36 pb-8 z-10 relative h-full px-8 md:px-16 xl:px-24 animate-fade-in">
         <div className=" w-full lg:w-2/3">
           <span className="text-white bg-black/30 py-2 px-4 rounded-full">
             Your Property

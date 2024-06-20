@@ -23,9 +23,14 @@ const config: Config = {
           from: { transform: "rotate(0deg)" },
           to: { transform: "rotate(360deg)" },
         },
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
       },
       animation: {
         "rotate-infinite": "rotate-infinite 2s linear infinite",
+        "fade-in": "fadeIn 1s ease-out 1s forwards",
       },
     },
   },
