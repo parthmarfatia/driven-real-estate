@@ -57,7 +57,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-col gap-2">
           <span className="text-white text-md">Lets Get Started</span>
-          <button className="rounded w-40 bg-elegant-blue p-4 text-white font-bold border border-elegant-blue hover:bg-opacity-0 hover:border hover:border-elegant-blue hover:text-elegant-blue">
+          <button className="rounded w-40 bg-elegant-blue p-4 text-white font-bold border border-elegant-blue hover:scale-105 transition-transform duration-300 hover:bg-elegant-blue/80">
             Buy
           </button>
         </div>

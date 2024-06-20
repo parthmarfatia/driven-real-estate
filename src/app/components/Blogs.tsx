@@ -22,7 +22,7 @@ const Card = () => {
           Dubai is renowned for its amazing skyline and modern architecture that
           draws tourists from all parts of the world.
         </p>
-        <button className="mb-4 rounded bg-elegant-blue px-4 py-2 text-white font-bold border border-elegant-blue hover:bg-opacity-0 hover:border hover:border-elegant-blue hover:text-elegant-blue">
+        <button className="mb-4 rounded bg-elegant-blue px-4 py-2 text-white font-bold border border-elegant-blue hover:scale-105 transition-transform duration-300 hover:bg-elegant-blue/80">
           Read More
         </button>
         <div className="flex py-4 border-t-2 border-midgray gap-4">
@@ -60,7 +60,7 @@ const Blogs = () => {
         ))}
       </div>
       <div className="flex w-full justify-center">
-        <button className="rounded bg-elegant-blue py-2 w-40 text-white font-bold border border-elegant-blue hover:bg-opacity-0 hover:border hover:border-elegant-blue hover:text-elegant-blue">
+        <button className="rounded bg-elegant-blue py-2 w-40 text-white font-bold border border-elegant-blue hover:scale-105 transition-transform duration-300 hover:bg-elegant-blue/80">
           Explore More
         </button>
       </div>

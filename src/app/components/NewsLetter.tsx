@@ -15,7 +15,7 @@ const NewsLetter = () => {
           placeholder="Email Address"
           className="pl-8 py-4 w-full md:w-96 font-bold rounded border border-midgray placeholder:text-midgray"
         />
-        <button className="rounded bg-elegant-blue py-4 px-8 text-white font-bold border border-elegant-blue hover:bg-opacity-0 hover:border hover:border-elegant-blue hover:text-elegant-blue">
+        <button className="rounded bg-elegant-blue py-4 px-8 text-white font-bold border border-elegant-blue hover:scale-105 transition-transform duration-300 hover:bg-elegant-blue/80">
           Sign Up
         </button>
       </div>

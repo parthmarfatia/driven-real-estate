@@ -56,7 +56,7 @@ const Navbar = () => {
         </span>
       </div>
       <div className=" items-center hidden lg:flex">
-        <button className="rounded bg-elegant-blue p-4 text-white font-bold border border-elegant-blue hover:bg-opacity-0 hover:border hover:border-elegant-blue hover:text-elegant-blue">
+        <button className="rounded bg-elegant-blue p-4 text-white font-bold border border-elegant-blue hover:scale-105 transition-transform duration-300 hover:bg-elegant-blue/80">
           Instant Valuation
         </button>
       </div>
