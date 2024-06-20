@@ -2,7 +2,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative overflow-hidden h-screen">
+    <section
+      id="home"
+      className="relative flex justify-center overflow-hidden h-full lg:h-screen"
+    >
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
         autoPlay
@@ -14,8 +17,9 @@ const Hero = () => {
       >
         Your browser does not support the video tag.
       </video>
-      <div className="flex flex-col justify-between pt-36 pb-8 z-10 relative h-full px-8 bg-black/30">
-        <div className="w-2/3">
+      <div className="bg-black/30 w-full h-full absolute"></div>
+      <div className="flex flex-col gap-5 md:gap-10 lg:justify-between lg:gap-0 w-full xl:w-[90%] pt-36 pb-8 z-10 relative h-full px-8">
+        <div className=" w-full lg:w-2/3">
           <span className="text-white bg-black/30 py-2 px-4 rounded-full">
             Your Property
           </span>
@@ -25,7 +29,7 @@ const Hero = () => {
         </div>
         <div className="flex flex-col gap-3">
           <span className="text-white text-2xl">Why Choose Driven?</span>
-          <div className="flex justify-between flex-wrap gap-4 box-border">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="p-4 flex flex-col bg-black/30 text-white rounded-lg border-l-8 border-black flex-1">
               <h3>Among the most trusted in the region</h3>
               <p className="font-light">
