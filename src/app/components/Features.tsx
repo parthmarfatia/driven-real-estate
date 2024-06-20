@@ -52,14 +52,13 @@ const Features = () => {
       ) : (
         <div className="flex flex-col gap-8 w-full">
           <div className="w-full md:w-[26rem]">
-            <h2 className="text-white">
-              Check out the best area guides in Dubai
-            </h2>
+            <h2 className="text-white">Discover Your Perfect Neighborhood</h2>
           </div>
           <div className="w-full md:w-[20rem]">
             <p className="text-white font-normal">
-              These popular areas cater to diverse preferences, from luxurious
-              waterfront lifestyles to a vibrant urban experience.
+              Whether you are looking for bustling city life or peaceful
+              surroundings, our comprehensive guides help you find the ideal
+              place to call home.
             </p>
           </div>
           <div className="flex flex-col items-center md:flex-row gap-8 w-full">
