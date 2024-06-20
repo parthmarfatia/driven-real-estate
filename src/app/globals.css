@@ -66,3 +66,14 @@ h5 {
     0.2
   ); /* Fallback for browsers that don't support backdrop-filter */
 }
+
+.dropdown-pointer::before {
+  content: "";
+  position: absolute;
+  top: -7px; /* Adjust this value based on your needs */
+  left: 10%;
+  transform: translateX(-50%);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid rgba(0, 0, 0, 0.7); /* Match the dropdown background color or use theme color */
+}

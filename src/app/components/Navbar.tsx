@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { twMerge } from "tailwind-merge";
+import DropdownButton from "./DropdownButton";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -37,7 +38,7 @@ const Navbar = () => {
             <Link href="#features">Features</Link>
           </li>
           <li className="hover:text-elegant-blue">
-            <Link href="#blogs">Blogs</Link>
+            <DropdownButton />
           </li>
           <li className="hover:text-elegant-blue">
             <Link href="#newsletter">Newsletter</Link>
@@ -48,7 +49,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex items-center">
-        <span className="material-icons cursor-pointer hover:text-elegant-blue transition-colors duration-300 ease-in-out hover:rotate-90">
+        <span className="material-icons cursor-pointer hover:text-elegant-blue  hover:animate-rotate-infinite">
           settings
         </span>
       </div>
