@@ -4,13 +4,13 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full h-full bg-black py-8 px-8 md:px-16 xl:px-24 flex flex-col md:flex-row gap-4"
+      className="w-full h-full bg-black py-8 px-8 md:px-16 xl:px-24 flex flex-col lg:flex-row gap-4"
     >
-      <div className="flex flex-col gap-24 w-full">
-        <div className="w-[24rem]">
+      <div className="flex flex-col gap-12 lg:gap-24 w-full">
+        <div className="w-full md:w-[24rem]">
           <h2 className="text-white">Speak to an agent today</h2>
         </div>
-        <div className="w-[24rem]">
+        <div className="w-full md:w-[24rem]">
           <p className="text-midgray text-2xl">
             Sign up for our weekly newsletter for market updates!
           </p>

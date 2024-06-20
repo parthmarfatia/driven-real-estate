@@ -6,14 +6,14 @@ const NewsLetter = () => {
       id="newsletter"
       className="newsletter py-16 px-8 md:px-16 xl:px-24 h-full w-full flex flex-col items-center gap-8 bg-offwhite"
     >
-      <div className="w-[55rem] text-center">
+      <div className="w-full lg:w-[55rem] text-center">
         <h2>Get the Real Estate Insights Newsletter in Your Inbox Monthly</h2>
       </div>
-      <div className="flex gap-6">
+      <div className="flex flex-col justify-center items-center w-full md:flex-row gap-6">
         <input
           type="text"
           placeholder="Email Address"
-          className="pl-8 w-96 font-bold rounded border border-midgray placeholder:text-midgray"
+          className="pl-8 py-4 w-full md:w-96 font-bold rounded border border-midgray placeholder:text-midgray"
         />
         <button className="rounded bg-elegant-blue py-4 px-8 text-white font-bold border border-elegant-blue hover:bg-opacity-0 hover:border hover:border-elegant-blue hover:text-elegant-blue">
           Sign Up

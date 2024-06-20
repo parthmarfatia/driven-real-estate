@@ -51,10 +51,10 @@ const Blogs = () => {
       id="blogs"
       className="py-8 px-8 md:px-16 xl:px-24 h-full w-full flex flex-col gap-8"
     >
-      <div className="w-[40rem]">
+      <div className="w-full md:w-[40rem]">
         <h2>The latest blogs, podcasts, and real estate insights</h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {[1, 2, 3, 4].map((v: number) => (
           <Card key={v} />
         ))}
