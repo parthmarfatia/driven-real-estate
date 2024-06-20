@@ -49,7 +49,7 @@ const Blogs = () => {
   return (
     <section
       id="blogs"
-      className="py-8 px-8 md:px-16 xl:px-24 h-full w-full flex flex-col gap-8"
+      className="pb-8 pt-24  px-8 md:px-16 xl:px-24 h-full w-full flex flex-col gap-8"
     >
       <div className="w-full md:w-[40rem]">
         <h2>The latest blogs, podcasts, and real estate insights</h2>

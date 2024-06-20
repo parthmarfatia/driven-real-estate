@@ -7,7 +7,7 @@ const Features = () => {
   return (
     <section
       id="features"
-      className="w-full h-full bg-black py-8 flex gap-4 items-center"
+      className="w-full h-full bg-black pb-8 pt-24 flex gap-4 items-center"
     >
       <div
         className="w-8 md:w-16 xl:w-24 flex justify-center cursor-pointer"
@@ -58,7 +58,7 @@ const Features = () => {
             <p className="text-white font-normal">
               Whether you are looking for bustling city life or peaceful
               surroundings, our comprehensive guides help you find the ideal
-              place to call home.
+              place.
             </p>
           </div>
           <div className="flex flex-col items-center md:flex-row gap-8 w-full">
