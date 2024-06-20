@@ -4,6 +4,7 @@ import Image from "next/image";
 
 const Features = () => {
   const [isToggle, setIsToggle] = useState(false);
+
   return (
     <section
       id="features"
@@ -29,22 +30,20 @@ const Features = () => {
             </p>
           </div>
           <div className="flex flex-col items-center md:flex-row gap-8 w-full">
-            <div className="md:ml-20">
+            <div className="w-[300px] h-[300px] md:ml-20 relative">
               <Image
                 src={"/feature-1.png"}
                 alt="feature 1 image"
-                width={333}
-                height={333}
-                className="rounded-lg"
+                layout="fill"
+                className="rounded-lg object-cover"
               />
             </div>
-            <div className="md:-mt-40">
+            <div className="w-[500px] h-[300px] md:-mt-40 relative">
               <Image
                 src={"/feature-2.png"}
                 alt="feature 2 image"
-                width={500}
-                height={300}
-                className="rounded-lg"
+                layout="fill"
+                className="rounded-lg object-cover"
               />
             </div>
           </div>
@@ -62,22 +61,20 @@ const Features = () => {
             </p>
           </div>
           <div className="flex flex-col items-center md:flex-row gap-8 w-full">
-            <div className="md:ml-20">
+            <div className="w-[500px] h-[300px] md:ml-20 relative">
               <Image
                 src={"/feature-3.png"}
                 alt="feature 3 image"
-                width={500}
-                height={300}
-                className="rounded-lg"
+                layout="fill"
+                className="rounded-lg object-cover"
               />
             </div>
-            <div className="md:-mt-40">
+            <div className="w-[500px] h-[300px] md:-mt-40 relative">
               <Image
                 src={"/feature-4.png"}
                 alt="feature 4 image"
-                width={500}
-                height={300}
-                className="rounded-lg"
+                layout="fill"
+                className="rounded-lg object-cover"
               />
             </div>
           </div>
