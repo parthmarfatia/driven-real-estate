@@ -30,14 +30,14 @@ const Hero = () => {
         <div className="flex flex-col gap-3">
           <span className="text-white text-2xl">Why Choose Driven?</span>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div className="p-4 flex flex-col bg-black/30 text-white rounded-lg border-l-8 border-black flex-1">
+            <div className="p-4 flex flex-col bg-black/30 text-white rounded-lg border-l-8 border-black flex-1 hover:scale-105 transition-transform duration-300">
               <h3>Among the most trusted in the region</h3>
               <p className="font-light">
                 Our agents and staff are rated 4.5 stars on Google and have
                 operated in the market for over a decade
               </p>
             </div>
-            <div className="p-4 flex flex-col bg-black/30 text-white rounded-lg border-l-8 border-black flex-1">
+            <div className="p-4 flex flex-col bg-black/30 text-white rounded-lg border-l-8 border-black flex-1 hover:scale-105 transition-transform duration-300">
               <h3>We move fast</h3>
               <p className="font-light">
                 If you are buying and need to close quickly, look no further.
@@ -45,7 +45,7 @@ const Hero = () => {
                 fast as 24 hours
               </p>
             </div>
-            <div className="p-4 flex flex-col bg-black/30 text-white rounded-lg border-l-8 border-black flex-1">
+            <div className="p-4 flex flex-col bg-black/30 text-white rounded-lg border-l-8 border-black flex-1 hover:scale-105 transition-transform duration-300">
               <h3>We move fast</h3>
               <p className="font-light">
                 If you are buying and need to close quickly, look no further.

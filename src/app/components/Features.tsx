@@ -30,7 +30,7 @@ const Features = () => {
             </p>
           </div>
           <div className="flex flex-col items-center md:flex-row gap-8 w-full">
-            <div className="w-[300px] h-[300px] md:ml-20 relative">
+            <div className="w-[300px] h-[300px] md:ml-20 relative hover:scale-105 transition-transform duration-300">
               <Image
                 src={"/feature-1.png"}
                 alt="feature 1 image"
@@ -38,7 +38,7 @@ const Features = () => {
                 className="rounded-lg object-cover"
               />
             </div>
-            <div className="w-[500px] h-[300px] md:-mt-40 relative">
+            <div className="w-[500px] h-[300px] md:-mt-40 relative hover:scale-105 transition-transform duration-300">
               <Image
                 src={"/feature-2.png"}
                 alt="feature 2 image"
@@ -61,7 +61,7 @@ const Features = () => {
             </p>
           </div>
           <div className="flex flex-col items-center md:flex-row gap-8 w-full">
-            <div className="w-[500px] h-[300px] md:ml-20 relative">
+            <div className="w-[500px] h-[300px] md:ml-20 relative hover:scale-105 transition-transform duration-300">
               <Image
                 src={"/feature-3.png"}
                 alt="feature 3 image"
@@ -69,7 +69,7 @@ const Features = () => {
                 className="rounded-lg object-cover"
               />
             </div>
-            <div className="w-[500px] h-[300px] md:-mt-40 relative">
+            <div className="w-[500px] h-[300px] md:-mt-40 relative hover:scale-105 transition-transform duration-300">
               <Image
                 src={"/feature-4.png"}
                 alt="feature 4 image"

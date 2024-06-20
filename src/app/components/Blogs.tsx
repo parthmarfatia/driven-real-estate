@@ -3,7 +3,7 @@ import React from "react";
 
 const Card = () => {
   return (
-    <div className="flex flex-col border border-midgray rounded-2xl">
+    <div className="flex flex-col border border-midgray rounded-2xl hover:scale-105 transition-transform duration-300">
       <div className="relative w-full h-48">
         <Image
           src={"/feature-1.png"}
