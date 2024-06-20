@@ -39,7 +39,7 @@ const Navbar = () => {
         <span className="material-icons">settings</span>
       </div>
       <div className="flex items-center">
-        <button className="rounded bg-blue-500 p-4 text-white font-bold border border-blue-500 hover:bg-opacity-0 hover:border hover:border-blue-500 hover:text-blue-400">
+        <button className="rounded bg-elegant-blue p-4 text-white font-bold border border-elegant-blue hover:bg-opacity-0 hover:border hover:border-elegant-blue hover:text-elegant-blue">
           Instant Valuation
         </button>
       </div>
