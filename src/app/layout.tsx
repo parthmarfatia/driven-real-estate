@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import Navbar from "./components/Navbar";
+import Widget from "./components/Widget";
 
 import "material-icons/iconfont/material-icons.css";
 import "./globals.css";
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body className={lato.className}>
         <Navbar />
         {children}
+        <Widget />
       </body>
     </html>
   );
