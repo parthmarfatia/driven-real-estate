@@ -4,7 +4,7 @@ const NewsLetter = () => {
   return (
     <section
       id="newsletter"
-      className="newsletter py-16 h-full w-full flex flex-col items-center gap-8 bg-offwhite"
+      className="newsletter py-16 px-8 md:px-16 xl:px-24 h-full w-full flex flex-col items-center gap-8 bg-offwhite"
     >
       <div className="w-[55rem] text-center">
         <h2>Get the Real Estate Insights Newsletter in Your Inbox Monthly</h2>

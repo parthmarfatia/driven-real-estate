@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section className="w-full h-full bg-black p-8 flex flex-col">
+    <section className="w-full h-full bg-black py-8 px-8 md:px-16 xl:px-24 flex flex-col">
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4 border-y-2 border-midgray py-8">
         <div className="flex flex-col gap-4">
           <h5 className="text-white">Our Properties</h5>

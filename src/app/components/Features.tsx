@@ -5,9 +5,9 @@ const Features = () => {
   return (
     <section
       id="features"
-      className="w-full h-full bg-black p-8 flex gap-4 items-center"
+      className="w-full h-full bg-black py-8 flex gap-4 items-center"
     >
-      <div>
+      <div className="w-8 md:w-16 xl:w-24 flex justify-center">
         <span className="material-icons text-white">arrow_back_ios</span>
       </div>
       <div className="flex flex-col gap-8 w-full">
@@ -41,7 +41,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-      <div className="ml-auto">
+      <div className="ml-auto w-8 md:w-16 xl:w-24 flex justify-center">
         <span className="material-icons text-white">arrow_forward_ios</span>
       </div>
     </section>
