@@ -1,22 +1,30 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+import { twMerge } from "tailwind-merge";
 
 const Features = () => {
   const [isToggle, setIsToggle] = useState(false);
+
   return (
     <section
       id="features"
-      className="w-full h-full bg-black pb-8 pt-24 flex gap-4 items-center"
+      className="relative w-full h-full bg-black pb-8 pt-24 flex items-center overflow-hidden"
     >
       <div
-        className="w-8 md:w-16 xl:w-24 flex justify-center cursor-pointer"
+        className="absolute left-0 w-8 md:w-16 xl:w-24 flex justify-center cursor-pointer z-10"
         onClick={() => setIsToggle((prev) => !prev)}
       >
         <span className="material-icons text-white ml-4">arrow_back_ios</span>
       </div>
-      {isToggle ? (
-        <div className="flex flex-col gap-8 w-full">
+
+      <div
+        className={twMerge(
+          "flex w-full transition-transform duration-700 ease-in-out",
+          isToggle ? "transform translate-x-[-100%]" : "transform translate-x-0"
+        )}
+      >
+        <div className="min-w-full flex flex-col gap-8 px-8 md:px-16 xl:px-24">
           <div className="w-full md:w-[26rem]">
             <h2 className="text-white">
               Check out the best area guides in Dubai
@@ -49,8 +57,8 @@ const Features = () => {
             </div>
           </div>
         </div>
-      ) : (
-        <div className="flex flex-col gap-8 w-full">
+
+        <div className="min-w-full flex flex-col gap-8 px-8 md:px-16 xl:px-24">
           <div className="w-full md:w-[26rem]">
             <h2 className="text-white">Discover Your Perfect Neighborhood</h2>
           </div>
@@ -82,9 +90,10 @@ const Features = () => {
             </div>
           </div>
         </div>
-      )}
+      </div>
+
       <div
-        className="ml-auto w-8 md:w-16 xl:w-24 flex justify-center cursor-pointer"
+        className="absolute right-0 w-8 md:w-16 xl:w-24 flex justify-center cursor-pointer z-10"
         onClick={() => setIsToggle((prev) => !prev)}
       >
         <span className="material-icons text-white">arrow_forward_ios</span>
