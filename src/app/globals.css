@@ -102,11 +102,11 @@ h5 {
 
 /* Styling the handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--elegant-blue);
+  background: var(--lighter-blue);
   border-radius: 9999px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--lighter-blue);
+  background: var(--elegant-blue);
 }
