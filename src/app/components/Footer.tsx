@@ -108,23 +108,18 @@ const Footer = () => {
       </div>
       <footer className="bg-black text-white p-4">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <span className="flex justify-center">
-              <span className="text-midgray">Follow Us</span>
-              <span className="material-icons text-white cursor-pointer ml-4">
-                facebook
-              </span>
-              <span className="material-icons text-white cursor-pointer ml-4">
-                email
-              </span>
-              <span className="material-icons text-white cursor-pointer ml-4">
-                phone
-              </span>
+          <span className="flex justify-center lg:justify-start">
+            <span className="text-midgray">Follow Us</span>
+            <span className="material-icons text-white cursor-pointer ml-4">
+              facebook
             </span>
-            <span className="ml-4 flex justify-center gap-2">
-              <span className="text-midgray">Call us: </span>800 374836
+            <span className="material-icons text-white cursor-pointer ml-4">
+              email
             </span>
-          </div>
+            <span className="material-icons text-white cursor-pointer ml-4">
+              phone
+            </span>
+          </span>
 
           <div className="flex justify-center">
             <Link href="/privacy-policy" className="text-white mr-2 underline">
@@ -136,9 +131,13 @@ const Footer = () => {
             </Link>
           </div>
 
-          <div className="text-center">
-            <span>© 2023 Driven Properties LLC. All Rights Reserved.</span>
-          </div>
+          <span className="text-center lg:text-end">
+            <span className="text-midgray">Call us: </span>800 374836
+          </span>
+        </div>
+
+        <div className="text-center mt-8 text-midgray">
+          <span>© 2023 Driven Properties LLC. All Rights Reserved.</span>
         </div>
       </footer>
     </section>
