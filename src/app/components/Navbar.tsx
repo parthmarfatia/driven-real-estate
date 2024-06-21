@@ -27,31 +27,31 @@ const Navbar = () => {
         isScrolled ? "bg-white shadow-md" : "navbar-blur"
       )}
     >
-      <div className="flex gap-1 items-center">
+      <div className="flex gap-1 items-center hover:scale-105 transition-transform duration-300">
         <Image src={"/logo.svg"} width={50} height={50} alt="logo" />
         <span className="text-3xl font-black">DRIVEN</span>
       </div>
       <div className=" ml-auto hidden lg:flex">
         <ul className="flex items-center gap-4 font-medium">
-          <li className="hover:text-elegant-blue">
+          <li className="hover:text-elegant-blue hover:scale-105 transition-transform duration-300">
             <Link href="#home">Home</Link>
           </li>
-          <li className="hover:text-elegant-blue">
+          <li className="hover:text-elegant-blue hover:scale-105 transition-transform duration-300">
             <Link href="#features">Features</Link>
           </li>
-          <li className="hover:text-elegant-blue">
+          <li className="hover:text-elegant-blue hover:scale-105 transition-transform duration-300">
             <DropdownButton />
           </li>
-          <li className="hover:text-elegant-blue">
+          <li className="hover:text-elegant-blue hover:scale-105 transition-transform duration-300">
             <Link href="#newsletter">Newsletter</Link>
           </li>
-          <li className="hover:text-elegant-blue">
+          <li className="hover:text-elegant-blue hover:scale-105 transition-transform duration-300">
             <Link href="#contact">Contact Us</Link>
           </li>
         </ul>
       </div>
       <div className=" items-center hidden lg:flex">
-        <span className="material-icons cursor-pointer hover:text-elegant-blue  hover:animate-rotate-infinite">
+        <span className="material-icons cursor-pointer hover:text-elegant-blue hover:scale-105 transition-transform duration-300  hover:animate-rotate-infinite">
           settings
         </span>
       </div>
