@@ -88,3 +88,25 @@ h5 {
   border-right: 8px solid transparent;
   border-bottom: 8px solid rgba(255, 255, 255, 0.9); /* Match the dropdown background color or use theme color */
 }
+
+/* Base styles for the scrollbar */
+::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+
+/* Styling the track */
+::-webkit-scrollbar-track {
+  background: var(--offwhite);
+}
+
+/* Styling the handle */
+::-webkit-scrollbar-thumb {
+  background: var(--elegant-blue);
+  border-radius: 9999px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--lighter-blue);
+}
