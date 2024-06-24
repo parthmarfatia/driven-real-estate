@@ -14,7 +14,7 @@ const MobileMenuModal = () => {
         <span className="material-icons text-5xl">menu</span>
       </button>
       {isOpen && (
-        <ul className="absolute flex flex-col gap-8 items-center right-0 mt-2 w-80 bg-white/95 shadow-lg rounded-2xl z-10 p-8 dropdown-pointer-white">
+        <ul className="absolute flex flex-col gap-8 items-center right-0 mt-8 w-80 bg-white/95 shadow-lg rounded-2xl z-10 p-8 dropdown-pointer-white">
           <li className="hover:text-elegant-blue">
             <Link href="#home">Home</Link>
           </li>
