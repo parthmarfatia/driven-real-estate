@@ -6,6 +6,7 @@ import React, { useState, useEffect } from "react";
 import { twMerge } from "tailwind-merge";
 import DropdownButton from "./DropdownButton";
 import MobileMenuModal from "./MobileMenuModal";
+import SettingsMenu from "./SettingsMenu";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -51,9 +52,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className=" items-center hidden lg:flex">
-        <span className="material-icons cursor-pointer hover:text-elegant-blue hover:scale-105 transition-transform duration-300  hover:animate-rotate-infinite">
-          settings
-        </span>
+        <SettingsMenu />
       </div>
       <div className=" items-center hidden lg:flex">
         <button className="rounded bg-elegant-blue p-4 text-white font-bold border border-elegant-blue hover:scale-105 transition-transform duration-300 hover:bg-elegant-blue/80">
