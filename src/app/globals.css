@@ -89,6 +89,17 @@ h5 {
   border-bottom: 8px solid rgba(255, 255, 255, 0.9); /* Match the dropdown background color or use theme color */
 }
 
+.dropdown-pointer-left::before {
+  content: "";
+  position: absolute;
+  top: 15px; /* Position it at the top */
+  left: -7px; /* Adjust this value based on your needs */
+  transform: translateY(-50%); /* Center it vertically */
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid rgba(0, 0, 0, 0.7); /* Match the dropdown background color or use theme color */
+}
+
 /* Base styles for the scrollbar */
 ::-webkit-scrollbar {
   height: 12px;
